@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" >
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Sign Up </title>
+    <link rel="stylesheet" href="../css/style.css">
+   
+</head>
+ 
+<body class="my-sign-page">
+   
+            <div class="firstContainer">
+ 
+                <!--card-->
+                <div class="card">
+                   
+                    <div class="container-sign">
+                      <h4><b>Sign Up</b></h4>
+                     
+                   
+                           
+                            <!--card-inhoud-->
+                       
+                            
+                                <div class="form-group">
+                                    <form action="../php/Signup.php" method="post">
+                                        <label for="gebruikersnaam"> Gebruikersnaam</label>
+                                        <input id="gebruikersnaam" type="text" class="form-control" name="gebruikersnaam" required><br>
+                                    <br>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">E-mail:</label>
+                                    <input id="email" type="email" class="form-control" name="email" required><br>
+                                    <br>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="wachtwoord">Wachtwoord:</label>
+                                    <input id="wachtwoord" type="password" class="form-control" name="wachtwoord" required><br>
+                                    
+                                </div>
+ 
+                                <!--gegevens opslaan-->
+                                <div class="form-group">
+                                    <div class="custom-checkbox custom-control">
+                                        <input type="checkbox" name="remember" id="remember" class="custom-control-input">
+                                        <label for="remember" class="custom-control-label">Remember Me</label>
+                                    </div>
+                                </div>
+                                <br>
+ 
+                                <!--signin-button-->
+                                <div class="form-group m-0">
+                                    <input type="submit" name="submit" class="btn btn-primary btn-block">
+                                       
+                                </input>
+                                </div>
+                            </div>
+                        </div>
+                            </form>
+                        
+                   
+        </div>
+    </section>
+ 
+
+   
+
+
+</body>
+</html>
