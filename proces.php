@@ -9,14 +9,14 @@ if (isset($_POST['login'])) {
 
     if ($user !== false) {
         
-      header("location:../index.html");
+      header("location:../index.php");
      exit();   
 
     } else {
       
       echo '<script type="text/javascript">  
       alert("Wrong E-mail/password!");
-      window.location.href = "../html/login.html";
+      window.location.href = "../html/login.php";
      </script>';
 
     exit();
