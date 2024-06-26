@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -7,7 +6,7 @@
 
     <meta charset="UTF-8">
 
-    <title>blog</title>
+    <title>blogp4</title>
 
     <style>
 
@@ -67,9 +66,9 @@
  
     <div id="cookieNotification">
 
-        We use cookies to ensure you get the best experience on our website.
+    Wij gebruiken cookies om ervoor te zorgen dat u de beste ervaring op onze website krijgt.
 
-        <button onclick="acceptCookies()">Accept</button>
+        <button onclick="acceptCookies()">Accepteer</button>
 
     </div>
  
@@ -293,7 +292,7 @@
 
 
   ​
-  </html>
+  
   ​
 
 
@@ -305,3 +304,4 @@
 
 </body>
 </html>
+
