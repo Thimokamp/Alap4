@@ -1,7 +1,7 @@
 <?php
 
 require_once("session.php");
-require_once ('Cookies.php');
+
 function dbconnection(){
 
 $servername = "localhost";
@@ -55,7 +55,7 @@ function checkUser($email,$wachtwoord)
  else {
       
   logSession($result["gebruikersnaam"],$result["email"],$result["wachtwoord"]);
-  setCookies($result["gebruikersnaam"]);
+  
 
   }
 
