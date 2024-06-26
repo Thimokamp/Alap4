@@ -25,7 +25,7 @@ try {
     VALUES ('$username', '$email', '$password')";
 
     $conn->exec($sql);
-    header("location:../index.html");
+    header("location:../index.php");
   } catch(PDOException $e) {
     echo $sql . "<br>" . $e->getMessage();
   }
@@ -33,9 +33,5 @@ try {
   
   $conn = null;
   ?>
-
-
-
-
 
 
